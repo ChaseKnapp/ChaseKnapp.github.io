@@ -1,25 +1,36 @@
+
 body {
     background-color: #151720;
 }
+.header{
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/24/20/48/programming-1857236_960_720.jpg")
+}
 h1 {
+    font-family:orbitron, sans-serif;
     color: #3fd330;
 }
-p {
+p, p1 {
+    font-family:orbitron, sans-serif;
     color: white;
 }
 ul {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/24/20/48/programming-1857236_960_720.jpg")
+    background-color: #333333;
+    font-family:orbitron, sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
 }
 
 li {
+    background-color: #333333;
+    font-family:orbitron, sans-serif;
     float: left;
 }
 
 li a {
+    font-family:orbitron, sans-serif;
     display: block;
     color: white;
     text-align: center;
@@ -29,4 +40,10 @@ li a {
 
 li a:hover {
     background-color: #111111;
+}
+html{
+  background-position: center;
+  background-size:100% 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2015/06/28/12/20/water-824418_960_720.jpg")
+
 }
